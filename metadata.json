@@ -1,0 +1,6 @@
+{
+  "name": "Dream Oracle - مفسر الأحلام الذكي",
+  "description": "منصة تفاعلية مدعومة بالذكاء الاصطناعي لتفسير الأحلام وتحليل الرموز النفسية والروحية بطريقة ملهمة، صُممت لتكون سريعة الانتشار.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
