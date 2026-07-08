@@ -173,12 +173,12 @@ export default function App() {
                 <div className="p-6 md:p-8 space-y-8">
                   <div className="space-y-3">
                     <h3 className="text-xl font-bold text-indigo-300 border-r-4 border-indigo-500 pr-3">تحليل الرموز</h3>
-                    <p className="text-indigo-100/90 leading-relaxed text-lg">{result.symbolism}</p>
+                    <p className="text-indigo-100/90 leading-relaxed text-lg whitespace-pre-wrap">{result.symbolism}</p>
                   </div>
 
                   <div className="space-y-3">
                     <h3 className="text-xl font-bold text-purple-300 border-r-4 border-purple-500 pr-3">التفسير الشامل</h3>
-                    <p className="text-indigo-100/90 leading-relaxed text-lg">{result.meaning}</p>
+                    <p className="text-indigo-100/90 leading-relaxed text-lg whitespace-pre-wrap">{result.meaning}</p>
                   </div>
 
                   <div className="space-y-3 bg-white/5 rounded-2xl p-5 border border-white/5">
@@ -186,7 +186,7 @@ export default function App() {
                       <Star className="w-5 h-5" />
                       <span>حكمة اليوم</span>
                     </h3>
-                    <p className="text-amber-100/90 leading-relaxed font-medium">{result.advice}</p>
+                    <p className="text-amber-100/90 leading-relaxed font-medium whitespace-pre-wrap">{result.advice}</p>
                   </div>
                 </div>
 
